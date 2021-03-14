@@ -26,7 +26,7 @@ public class MediaPlayer extends JPanel {
             //recorder.setVideoCodec(13);
             recorder.setFrameRate(30);
             recorder.setFormat("mp4");
-            recorder.start();
+            //recorder.start();
         } catch (Exception e) {
             e.printStackTrace();
         }
